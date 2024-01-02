@@ -11,7 +11,7 @@ import './App.css'
 
 export default function BasicCard() {
   return (
-    <Card sx={{ minWidth: 275 }}>
+    <Card sx={{ minWidth: 375 }}>
       <CardContent>
         <Typography sx={{ fontSize: 14, fontWeight: 'bold' }}>
           Course fees
