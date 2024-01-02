@@ -1,20 +1,25 @@
 
 .upperContainer {
-  height: 65vh;
+  height: 67vh;
+  width: 100%;
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH2qogRgQYyi9yej9oMjLGm1RKDKn9tRVfZ67m0zCowAzXL4c5");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 .upperContainerSub{
   color: white;
   margin-left: 5%;
   width: 55%;
   position: relative;
-  top: 40%;
+  top: 60%;
 }
 .upperContainerSub h3 {
-  font-size: 11;
+  font-size: 20px;
 }
 .upperContainerSub h1 {
-  font-size: 13;
+  font-size: 40px;
 }
 
 .nav{
@@ -27,12 +32,12 @@
 
 }
 .about h2 {
-  font-size: 19px;
+  font-size: 23px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .about p {
-  font-size: 13px;
+  font-size: 17px;
   margin-bottom: 20px;
   width: 55%;
 }
@@ -45,7 +50,7 @@
 }
 
 .lists{
-  font-size: 11px;
+  font-size: 15px;
   display: flex;
   flex-direction: row;
   margin-top: 7px;
@@ -59,7 +64,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 11px;
+  font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -87,11 +92,11 @@
   margin-right: 1em;
 }
 .section2 li{
-  font-size: 13px;
+  font-size: 17px;
   margin-bottom: 10px;
 }
 .section2 p{
-  font-size: 13px;
+  font-size: 17px;
   margin-bottom: 10px;
 }
 
@@ -102,7 +107,7 @@
 }
 .info h3{
   margin-bottom: 10px;
-  font-size: 17px;
+  font-size: 21px;
   font-weight: bold;
 }
 .subInfo{
@@ -111,7 +116,7 @@
   margin-bottom: 10px;
 }
 .subInfo p{
-  font-size: 13px;
+  font-size: 17px;
   margin: 2%;
   margin-bottom: 17px;
 }
